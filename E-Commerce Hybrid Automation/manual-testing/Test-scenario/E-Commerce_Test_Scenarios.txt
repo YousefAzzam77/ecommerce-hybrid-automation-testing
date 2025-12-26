@@ -1,0 +1,28 @@
+Document Title: Test Scenarios – E-Commerce Application
+Application: Demo Web Shop
+URL: https://demowebshop.tricentis.com
+🔐 Login Scenarios (Story: User Login)
+TS-LOGIN-01: Verify user can login with valid credentials
+TS-LOGIN-02: Verify login fails with invalid email
+TS-LOGIN-03: Verify login fails with invalid password
+TS-LOGIN-04: Verify login fails with empty credentials
+TS-LOGIN-05: Verify user remains logged out after failed login
+🛒 Add Product to Cart Scenarios (Story: Add Product to Cart)
+TS-CART-01: Verify user can add product to cart successfully
+TS-CART-02: Verify cart count updates after adding product
+TS-CART-03: Verify error shown when adding product with invalid quantity
+👀 View Cart Scenarios (Story: View Cart)
+TS-VIEWCART-01: Verify user can view shopping cart
+TS-VIEWCART-02: Verify correct product details displayed in cart
+TS-VIEWCART-03: Verify product quantity and price are correct
+💳 Checkout & Order Placement Scenarios (Story: Checkout)
+TS-CHECKOUT-01: Verify user cannot checkout without login
+TS-CHECKOUT-02: Verify logged-in user can proceed to checkout
+TS-CHECKOUT-03: Verify order is placed successfully
+TS-CHECKOUT-04: Verify order confirmation message is displayed
+🚪 Logout Scenarios (Story: Logout)
+TS-LOGOUT-01: Verify user can logout successfully
+TS-LOGOUT-02: Verify user can login again after logout
+🔗 Hybrid Automation Scenarios (Advanced)
+TS-HYBRID-01: Verify user login via API and UI session is created
+TS-HYBRID-02: Verify order placed via UI is visible via API
